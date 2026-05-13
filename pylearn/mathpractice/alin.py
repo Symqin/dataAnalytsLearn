@@ -61,3 +61,28 @@ print(M_as_rows)
 M_as_columns = np.column_stack((v1, v2, v3))
 print("Matrix M built from vectors as columns:")
 print(M_as_columns)
+
+#Ketergantungan linear
+v1 = np.array([[1, 2, 3],[4, 5, 6]])
+
+v1_T = v1.T
+print("Vektor v1:")
+print(v1)
+print("Vektor v1 transpose:")
+print(v1_T)
+
+# Rank matrix
+E = np.array([[1, 2, 3],
+              [4, 5, 6],
+              [7, 8, 9]])
+
+rank_E = np.linalg.matrix_rank(E)
+print(rank_E)  # Output: 2
+
+# Eigenvalues dan Eigenvectors
+G = np.array([[2, 0],
+              [0, 3]])
+
+eigenvalues = np.linalg.eigvals(G)
+print(eigenvalues)  # Output: [2. 3.]
+
