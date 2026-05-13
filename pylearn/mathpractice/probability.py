@@ -21,3 +21,5 @@ first_die_count = np.sum(throws[:, 0] == 6)
 # Menghitung probabilitas bersyarat
 conditional_probability = condition_count / first_die_count if first_die_count > 0 else 0
 print(f"Probabilitas mendapatkan angka 5 pada dadu kedua, given angka 6 pada dadu pertama: {conditional_probability:.4f}")
+
+
