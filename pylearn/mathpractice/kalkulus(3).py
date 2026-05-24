@@ -19,8 +19,9 @@ plt.show()
 
 x = np.linspace(-10, 10, 400)
 y = np.sin(x)
+y = x * np.sin(x)  # Mengalikan dengan x untuk variasi yang lebih menarik
 
-plt.plot(x, y, label='f(x) = sin(x)')
+plt.plot(x, y, label='f(x) = x * sin(x)')
 plt.title("Trigonometric Function")
 plt.xlabel('x')
 plt.ylabel('f(x)')  
