@@ -9,7 +9,7 @@ df = pd.DataFrame(data)
 print(df)
 
 # Menyimpan DataFrame ke file CSV
-df.to_csv('data.csv', index=False)
+df.to_csv('pylearn/csv/data.csv', index=False)
 
 # Membaca DataFrame dari file CSV
 dataindus = pd.read_csv('industry.csv')

@@ -18,7 +18,7 @@ df = pd.DataFrame(data, index=['orang1', 'orang2', 'orang3', 'orang4'])
 print(df)
 
 # read csv
-df_from_csv = pd.read_csv('industry.csv')
+df_from_csv = pd.read_csv('pylearn/csv/industry.csv')
 print(df_from_csv)
 
 # shape and head
@@ -26,21 +26,21 @@ print(df_from_csv.shape)
 print(df_from_csv.head())
 
 # write csv
-df.to_csv('new.csv', index=False)
+df.to_csv('pylearn/csv/new.csv', index=False)
 
 # read file from different path
-df_from_csv = pd.read_csv('pylearn/new.csv')
+df_from_csv = pd.read_csv('pylearn/csv/new.csv')
 print(df_from_csv)
 
 # mengubah direktori kerja
 os.chdir('pylearn')
-df_from_csv = pd.read_csv('new.csv')
-print(df_from_csv)
+df_dirfrom_csv = pd.read_csv('C:\\Users\\mutaq\\Documents\\code\\dataAnalytsLearn\\pylearn\\csv\\new.csv')
+print(df_dirfrom_csv)
 
 #path dinamis
 
 data_directory = os.getenv('DATA_DIR', 'C:\\Users\\mutaq\\Documents\\code\\dataAnalytsLearn')
-file_path = os.path.join(data_directory, 'industry.csv')
+file_path = os.path.join(data_directory, 'pylearn/csv/industry.csv')
 df_from_csv = pd.read_csv(file_path)
 print(df_from_csv.head())
 
