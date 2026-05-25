@@ -1,0 +1,11 @@
+ID Karyawan,Nama,Jenis Kelamin,Usia,Gaji,Departemen
+101,Ani,Perempuan,30,5000000,Teknik
+102,Budi,Laki-laki,25,6000000,Pemasaran
+103,Citra,Perempuan,-,5500000,Penjualan
+104,Doni,Laki-laki,40,,Teknik
+105,Eka,?,28,4800000,Pemasaran
+106,Fani,Perempuan,32,7000000,NA
+107,Gilang,Laki-laki,,8500000,Penjualan
+108,Hana,Perempuan,35,NA,Teknik
+109,Indra,-,29,5200000,Pemasaran
+110,Joko,Laki-laki,45,9000000,?

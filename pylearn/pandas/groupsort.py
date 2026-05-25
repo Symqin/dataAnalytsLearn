@@ -1,8 +1,4 @@
-# Grouping
-
-import pandas as pd
-import random
-
+# Grouping dan sort
 import pandas as pd
 
 # ==========================================
